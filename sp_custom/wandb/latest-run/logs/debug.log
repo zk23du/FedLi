@@ -1,0 +1,27 @@
+2024-05-19 14:05:06,639 INFO    MainThread:3141665 [wandb_setup.py:_flush():76] Current SDK version is 0.17.0
+2024-05-19 14:05:06,639 INFO    MainThread:3141665 [wandb_setup.py:_flush():76] Configure stats pid to 3141665
+2024-05-19 14:05:06,639 INFO    MainThread:3141665 [wandb_setup.py:_flush():76] Loading settings from /home/drishya/.config/wandb/settings
+2024-05-19 14:05:06,639 INFO    MainThread:3141665 [wandb_setup.py:_flush():76] Loading settings from /home/drishya/Neurips2024/sp_decentralized_mnist_lr_example/wandb/settings
+2024-05-19 14:05:06,639 INFO    MainThread:3141665 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-05-19 14:05:06,639 INFO    MainThread:3141665 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-05-19 14:05:06,640 INFO    MainThread:3141665 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'sp_decentralized_mnist_lr_example/main.py', 'program_abspath': '/home/drishya/Neurips2024/sp_decentralized_mnist_lr_example/main.py', 'program': '/home/drishya/Neurips2024/sp_decentralized_mnist_lr_example/main.py'}
+2024-05-19 14:05:06,640 INFO    MainThread:3141665 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-05-19 14:05:06,640 INFO    MainThread:3141665 [wandb_init.py:_log_setup():520] Logging user logs to /home/drishya/Neurips2024/sp_decentralized_mnist_lr_example/wandb/run-20240519_140506-kpjsnnzc/logs/debug.log
+2024-05-19 14:05:06,640 INFO    MainThread:3141665 [wandb_init.py:_log_setup():521] Logging internal logs to /home/drishya/Neurips2024/sp_decentralized_mnist_lr_example/wandb/run-20240519_140506-kpjsnnzc/logs/debug-internal.log
+2024-05-19 14:05:06,640 INFO    MainThread:3141665 [wandb_init.py:init():560] calling init triggers
+2024-05-19 14:05:06,640 INFO    MainThread:3141665 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {'yaml_config_file': '/home/drishya/Neurips2024/sp_decentralized_mnist_lr_example/config/Dir:0.9_Dataset:CIFAR10_lr:0.01_optim:DFW.yaml', 'run_id': '0', 'rank': 0, 'local_rank': 0, 'node_rank': 0, 'role': 'client', 'run_device_id': '0', 'using_mlops': False, 'yaml_paths': ['/home/drishya/Neurips2024/sp_decentralized_mnist_lr_example/config/Dir:0.9_Dataset:CIFAR10_lr:0.01_optim:DFW.yaml'], 'backend': 'sp', 'alpha_dirichlet': 0.9, 'config_version': 'dev', 'dirichlet_seed': 2152041540, 'mlops_api_key': 'c9356b9c4ce44363bb66366b210201', 'mlops_project_name': 'simulation_2', 'mlops_run_name': 'fedml_torch_fedavg_mnist_lr_1', 'random_seed': 0, 'training_type': 'simulation', 'data_cache_dir': '/home/drishya/.cache/fedml_data', 'dataset': 'CIFAR10', 'partition_alpha': 0.5, 'partition_method': 'hetero', 'gpu_id': 2, 'using_gpu': True, 'model': 'RESNET_18', 'enable_tracking': False, 'enable_wandb': True, 'resume_wandb': False, 'run_name': 'Dir:0.9_Dataset:CIFAR10_lr:0.01_optim:DFW', 'wandb_entity': 'satorugojo', 'wandb_key': '33c95f9e252e007591dd740d49bf598481f87276', 'wandb_project': 'Cifar10_Local_Dowg', 'batch_size': 32, 'client_id_list': '[]', 'client_num_in_total': 100, 'client_num_per_round': 10, 'client_optimizer': 'Dowg', 'comm_round': 1000, 'epochs': 1, 'federated_optimizer': 'FedOpt', 'group_norm_size': 0, 'learning_rate': 0.01, 'server_lr': 0.01, 'server_optim': True, 'server_optimizer': 'DFW', 'weight_decay': 0.001, 'frequency_of_the_test': 5, 'worker_num': 10, 'sys_perf_profiling': True}
+2024-05-19 14:05:06,640 INFO    MainThread:3141665 [wandb_init.py:init():610] starting backend
+2024-05-19 14:05:06,640 INFO    MainThread:3141665 [wandb_init.py:init():614] setting up manager
+2024-05-19 14:05:06,646 INFO    MainThread:3141665 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-05-19 14:05:06,647 INFO    MainThread:3141665 [wandb_init.py:init():622] backend started and connected
+2024-05-19 14:05:06,658 INFO    MainThread:3141665 [wandb_init.py:init():711] updated telemetry
+2024-05-19 14:05:06,663 INFO    MainThread:3141665 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-05-19 14:05:08,095 INFO    MainThread:3141665 [wandb_run.py:_on_init():2396] communicating current version
+2024-05-19 14:05:08,147 INFO    MainThread:3141665 [wandb_run.py:_on_init():2405] got version response 
+2024-05-19 14:05:08,148 INFO    MainThread:3141665 [wandb_init.py:init():795] starting run threads in backend
+2024-05-19 14:05:10,207 INFO    MainThread:3141665 [wandb_run.py:_console_start():2374] atexit reg
+2024-05-19 14:05:10,207 INFO    MainThread:3141665 [wandb_run.py:_redirect():2229] redirect: wrap_raw
+2024-05-19 14:05:10,208 INFO    MainThread:3141665 [wandb_run.py:_redirect():2294] Wrapping output streams.
+2024-05-19 14:05:10,208 INFO    MainThread:3141665 [wandb_run.py:_redirect():2319] Redirects installed.
+2024-05-19 14:05:10,209 INFO    MainThread:3141665 [wandb_init.py:init():838] run started, returning control to user process

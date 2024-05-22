@@ -1,0 +1,174 @@
+wandb_version: 1
+
+yaml_config_file:
+  desc: null
+  value: /home/drishya/Neurips2024/sp_decentralized_mnist_lr_example/config/Dir:0.9_Dataset:CIFAR10_lr:0.01_optim:DFW.yaml
+run_id:
+  desc: null
+  value: '0'
+rank:
+  desc: null
+  value: 0
+local_rank:
+  desc: null
+  value: 0
+node_rank:
+  desc: null
+  value: 0
+role:
+  desc: null
+  value: client
+run_device_id:
+  desc: null
+  value: '0'
+using_mlops:
+  desc: null
+  value: false
+yaml_paths:
+  desc: null
+  value:
+  - /home/drishya/Neurips2024/sp_decentralized_mnist_lr_example/config/Dir:0.9_Dataset:CIFAR10_lr:0.01_optim:DFW.yaml
+backend:
+  desc: null
+  value: sp
+alpha_dirichlet:
+  desc: null
+  value: 0.9
+config_version:
+  desc: null
+  value: dev
+dirichlet_seed:
+  desc: null
+  value: 2152041540
+mlops_api_key:
+  desc: null
+  value: c9356b9c4ce44363bb66366b210201
+mlops_project_name:
+  desc: null
+  value: simulation_2
+mlops_run_name:
+  desc: null
+  value: fedml_torch_fedavg_mnist_lr_1
+random_seed:
+  desc: null
+  value: 0
+training_type:
+  desc: null
+  value: simulation
+data_cache_dir:
+  desc: null
+  value: /home/drishya/.cache/fedml_data
+dataset:
+  desc: null
+  value: CIFAR10
+partition_alpha:
+  desc: null
+  value: 0.5
+partition_method:
+  desc: null
+  value: hetero
+gpu_id:
+  desc: null
+  value: 2
+using_gpu:
+  desc: null
+  value: true
+model:
+  desc: null
+  value: RESNET_18
+enable_tracking:
+  desc: null
+  value: false
+enable_wandb:
+  desc: null
+  value: true
+resume_wandb:
+  desc: null
+  value: false
+run_name:
+  desc: null
+  value: Dir:0.9_Dataset:CIFAR10_lr:0.01_optim:DFW
+wandb_entity:
+  desc: null
+  value: satorugojo
+wandb_key:
+  desc: null
+  value: 33c95f9e252e007591dd740d49bf598481f87276
+wandb_project:
+  desc: null
+  value: Cifar10_Local_Dowg
+batch_size:
+  desc: null
+  value: 32
+client_id_list:
+  desc: null
+  value: '[]'
+client_num_in_total:
+  desc: null
+  value: 100
+client_num_per_round:
+  desc: null
+  value: 10
+client_optimizer:
+  desc: null
+  value: Dowg
+comm_round:
+  desc: null
+  value: 1000
+epochs:
+  desc: null
+  value: 1
+federated_optimizer:
+  desc: null
+  value: FedOpt
+group_norm_size:
+  desc: null
+  value: 0
+learning_rate:
+  desc: null
+  value: 0.01
+server_lr:
+  desc: null
+  value: 0.01
+server_optim:
+  desc: null
+  value: true
+server_optimizer:
+  desc: null
+  value: DFW
+weight_decay:
+  desc: null
+  value: 0.001
+frequency_of_the_test:
+  desc: null
+  value: 5
+worker_num:
+  desc: null
+  value: 10
+sys_perf_profiling:
+  desc: null
+  value: true
+_wandb:
+  desc: null
+  value:
+    python_version: 3.11.0
+    cli_version: 0.17.0
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1716127506
+    t:
+      1:
+      - 1
+      - 41
+      - 55
+      - 105
+      3:
+      - 13
+      - 16
+      - 23
+      4: 3.11.0
+      5: 0.17.0
+      8:
+      - 5
+      13: linux-x86_64
